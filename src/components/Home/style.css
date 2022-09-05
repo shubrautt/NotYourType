@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+.profile {
+  text-align: center;
+}
+.profile img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+.profile a i {
+  margin-right: 10px;
+}
+@media (max-width: 400px) {
+  .profile img {
+    width: 95%;
+  }
+}
